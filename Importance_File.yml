@@ -1,0 +1,245 @@
+
+
+
+
+
+
+
+
+Feature: ACK Flag Count, Importance: 0.1187365980875108
+Feature: URG Flag Count, Importance: 0.0605389742103738
+Feature: Init Bwd Win Bytes, Importance: 0.02090988119385684
+Feature: Bwd Packet Length Std, Importance: 0.01382787597797741
+Feature: Init Fwd Win Bytes, Importance: 0.010281077948420703
+Feature: Bwd Packet Length Max, Importance: 0.005099971022891836
+Feature: Bwd Packet Length Min, Importance: 0.003917705013039674
+Feature: Active Min, Importance: 0.0019356708200520822
+Feature: Flow Bytes/s, Importance: 0.0018545349174151626
+Feature: Avg Packet Size, Importance: 0.0015415821501013616
+Feature: Bwd Packet Length Mean, Importance: 0.001495218777165963
+Feature: Avg Bwd Segment Size, Importance: 0.0013097652854244801
+Feature: Protocol, Importance: 0.0010084033613444454
+Feature: Fwd Packet Length Std, Importance: 0.0009272674587076368
+Feature: Packet Length Min, Importance: 0.0007418139669660428
+Feature: Idle Mean, Importance: 0.00044045204288611917
+Feature: Flow IAT Min, Importance: 0.0004172703564183644
+Feature: Bwd Header Length, Importance: 0.00040567951318459805
+Feature: Packet Length Max, Importance: 0.00039408866995072067
+Feature: Bwd Packets Length Total, Importance: 0.00035931614024919956
+Feature: Fwd Packet Length Mean, Importance: 0.00035931614024919956
+Feature: SYN Flag Count, Importance: 0.00032454361054767844
+Feature: Flow IAT Std, Importance: 0.00031295276731380106
+Feature: Fwd IAT Mean, Importance: 0.00031295276731380106
+Feature: Bwd IAT Mean, Importance: 0.00031295276731380106
+Feature: Subflow Bwd Bytes, Importance: 0.00026658939437840257
+Feature: Packet Length Variance, Importance: 0.00024340770791075883
+Feature: Bwd IAT Std, Importance: 0.0002086351782091267
+Feature: Active Mean, Importance: 0.0002086351782091267
+Feature: Fwd Packet Length Max, Importance: 0.00018545349174148296
+Feature: Down/Up Ratio, Importance: 0.00017386264850760558
+Feature: Fwd IAT Max, Importance: 0.00013909011880608446
+Feature: Fwd IAT Min, Importance: 0.00012749927557220708
+Feature: Packet Length Std, Importance: 0.00012749927557220708
+Feature: Idle Min, Importance: 0.00012749927557220708
+Feature: Fwd Packet Length Min, Importance: 0.00011590843233844073
+Feature: Bwd IAT Max, Importance: 0.00011590843233844073
+Feature: Flow IAT Max, Importance: 0.00010431758910456335
+Feature: Fwd PSH Flags, Importance: 0.00010431758910456335
+Feature: Flow Duration, Importance: 9.272674587068597e-05
+Feature: Bwd Packets/s, Importance: 8.113590263691961e-05
+Feature: Fwd Packets/s, Importance: 6.954505940304223e-05
+Feature: Fwd Act Data Packets, Importance: 5.795421616916485e-05
+Feature: Fwd IAT Std, Importance: 4.636337293528747e-05
+Feature: CWE Flag Count, Importance: 4.636337293528747e-05
+Feature: Idle Std, Importance: 4.636337293528747e-05
+Feature: Idle Max, Importance: 4.636337293528747e-05
+Feature: Flow IAT Mean, Importance: 3.4772529701521115e-05
+Feature: Bwd IAT Total, Importance: 3.4772529701521115e-05
+Feature: Fwd Header Length, Importance: 3.4772529701521115e-05
+Feature: Fwd Seg Size Min, Importance: 3.4772529701521115e-05
+Feature: Subflow Fwd Packets, Importance: 2.3181686467643736e-05
+Feature: Active Std, Importance: 2.3181686467643736e-05
+Feature: Active Max, Importance: 2.3181686467643736e-05
+Feature: Total Backward Packets, Importance: 1.1590843233766357e-05
+Feature: Fwd IAT Total, Importance: 1.1590843233766357e-05
+Feature: Packet Length Mean, Importance: 1.1590843233766357e-05
+Feature: RST Flag Count, Importance: 1.1590843233766357e-05
+Feature: Subflow Fwd Bytes, Importance: 1.1590843233766357e-05
+Feature: Subflow Bwd Packets, Importance: 1.1590843233766357e-05
+Feature: Total Fwd Packets, Importance: 0.0
+Feature: Fwd Packets Length Total, Importance: 0.0
+Feature: Bwd PSH Flags, Importance: 0.0
+Feature: Fwd URG Flags, Importance: 0.0
+Feature: Bwd URG Flags, Importance: 0.0
+Feature: FIN Flag Count, Importance: 0.0
+Feature: PSH Flag Count, Importance: 0.0
+Feature: ECE Flag Count, Importance: 0.0
+Feature: Avg Fwd Segment Size, Importance: 0.0
+Feature: Fwd Avg Bytes/Bulk, Importance: 0.0
+Feature: Fwd Avg Packets/Bulk, Importance: 0.0
+Feature: Fwd Avg Bulk Rate, Importance: 0.0
+Feature: Bwd Avg Bytes/Bulk, Importance: 0.0
+Feature: Bwd Avg Packets/Bulk, Importance: 0.0
+Feature: Bwd Avg Bulk Rate, Importance: 0.0
+Feature: Flow Packets/s, Importance: -1.159084323387738e-05
+Feature: Bwd IAT Min, Importance: -2.318168646775476e-05
+
+
+
+Feature: ACK Flag Count, Importance: 0.027771660388293262
+Feature: Init Bwd Win Bytes, Importance: 0.017757171834250962
+Feature: Bwd Packet Length Min, Importance: 0.007510866415531781
+Feature: URG Flag Count, Importance: 0.006815415821501025
+Feature: Avg Bwd Segment Size, Importance: 0.005702694871051905
+Feature: Bwd Packet Length Std, Importance: 0.004856563314981188
+Feature: Fwd Packet Length Std, Importance: 0.0024688496088091094
+Feature: Fwd PSH Flags, Importance: 0.00238771370617219
+Feature: Down/Up Ratio, Importance: 0.002294986960301393
+Feature: RST Flag Count, Importance: 0.0020631700956245114
+Feature: Active Min, Importance: 0.0018545349174152737
+Feature: CWE Flag Count, Importance: 0.0017270356418429555
+Feature: Avg Packet Size, Importance: 0.0013445378151261123
+Feature: Packet Length Std, Importance: 0.0012865835989568364
+Feature: Init Fwd Win Bytes, Importance: 0.0012518110692553153
+Feature: Fwd Packet Length Mean, Importance: 0.001089539263981476
+Feature: Bwd Packet Length Mean, Importance: 0.0010199942045784338
+Feature: Fwd IAT Total, Importance: 0.0008924949290061157
+Feature: Fwd Packet Length Max, Importance: 0.0007070414372646328
+Feature: Packet Length Mean, Importance: 0.0006722689075631116
+Feature: Fwd Packet Length Min, Importance: 0.0006490872210953569
+Feature: Avg Fwd Segment Size, Importance: 0.0006143146913938358
+Feature: Idle Min, Importance: 0.0006027238481599584
+Feature: Flow IAT Max, Importance: 0.0005563604752246709
+Feature: Bwd Packet Length Max, Importance: 0.00048681541582151766
+Feature: Bwd IAT Total, Importance: 0.00044045204288611917
+Feature: Packet Length Min, Importance: 0.00037090698348307694
+Feature: Bwd Header Length, Importance: 0.0003129527673139121
+Feature: SYN Flag Count, Importance: 0.0003129527673139121
+Feature: Flow IAT Min, Importance: 0.0002549985511446362
+Feature: Flow Duration, Importance: 0.00020863517820923771
+Feature: Fwd Packets Length Total, Importance: 0.0001738626485077166
+Feature: Fwd Act Data Packets, Importance: 0.0001738626485077166
+Feature: Total Backward Packets, Importance: 0.00013909011880619548
+Feature: Active Max, Importance: 0.0001274992755723181
+Feature: Subflow Bwd Bytes, Importance: 0.00011590843233855175
+Feature: Packet Length Max, Importance: 9.272674587079699e-05
+Feature: Bwd Packets/s, Importance: 8.113590263691961e-05
+Feature: Fwd Seg Size Min, Importance: 8.113590263691961e-05
+Feature: Flow Bytes/s, Importance: 5.7954216169275874e-05
+Feature: Active Mean, Importance: 4.6363372935398495e-05
+Feature: Bwd Packets Length Total, Importance: 3.477252970163214e-05
+Feature: Subflow Fwd Packets, Importance: 3.477252970163214e-05
+Feature: Subflow Bwd Packets, Importance: 3.477252970163214e-05
+Feature: Bwd IAT Min, Importance: 2.318168646775476e-05
+Feature: Packet Length Variance, Importance: 2.318168646775476e-05
+Feature: Bwd IAT Max, Importance: 1.159084323387738e-05
+Feature: Fwd IAT Min, Importance: 0.0
+Feature: Bwd PSH Flags, Importance: 0.0
+Feature: Fwd URG Flags, Importance: 0.0
+Feature: Bwd URG Flags, Importance: 0.0
+Feature: Fwd Header Length, Importance: 0.0
+Feature: FIN Flag Count, Importance: 0.0
+Feature: PSH Flag Count, Importance: 0.0
+Feature: ECE Flag Count, Importance: 0.0
+Feature: Fwd Avg Bytes/Bulk, Importance: 0.0
+Feature: Fwd Avg Packets/Bulk, Importance: 0.0
+Feature: Fwd Avg Bulk Rate, Importance: 0.0
+Feature: Bwd Avg Bytes/Bulk, Importance: 0.0
+Feature: Bwd Avg Packets/Bulk, Importance: 0.0
+Feature: Bwd Avg Bulk Rate, Importance: 0.0
+Feature: Fwd Packets/s, Importance: -1.1590843233766357e-05
+Feature: Flow Packets/s, Importance: -2.3181686467643736e-05
+Feature: Subflow Fwd Bytes, Importance: -2.3181686467643736e-05
+Feature: Total Fwd Packets, Importance: -3.4772529701521115e-05
+Feature: Bwd IAT Mean, Importance: -8.113590263691961e-05
+Feature: Idle Mean, Importance: -9.272674587068597e-05
+Feature: Idle Std, Importance: -9.272674587068597e-05
+Feature: Bwd IAT Std, Importance: -0.00011590843233844073
+Feature: Active Std, Importance: -0.00011590843233844073
+Feature: Idle Max, Importance: -0.00016227180527383922
+Feature: Fwd IAT Max, Importance: -0.00018545349174148296
+Feature: Protocol, Importance: -0.0002434077079106478
+Feature: Flow IAT Std, Importance: -0.0003709069834829659
+Feature: Fwd IAT Std, Importance: -0.0003824978267168433
+Feature: Flow IAT Mean, Importance: -0.0005099971022891614
+Feature: Fwd IAT Mean, Importance: -0.0005215879455230388
+
+
+
+Feature: ACK Flag Count, Importance: 0.07995363662706467
+Feature: Init Bwd Win Bytes, Importance: 0.01844103158504784
+Feature: URG Flag Count, Importance: 0.011834250941756053
+Feature: Bwd Packet Length Min, Importance: 0.00787018255578098
+Feature: Bwd Packet Length Std, Importance: 0.006073601854534982
+Feature: Avg Bwd Segment Size, Importance: 0.004497247174731989
+Feature: Bwd Packet Length Mean, Importance: 0.0044624746450304675
+Feature: Active Min, Importance: 0.0027586206896551557
+Feature: Fwd Packet Length Std, Importance: 0.0026311214140829486
+Feature: Bwd Packet Length Max, Importance: 0.0020399884091567566
+Feature: Packet Length Std, Importance: 0.0019820341929875918
+Feature: Flow Packets/s, Importance: 0.0012054476963199168
+Feature: Fwd Packets/s, Importance: 0.0010779484207475987
+Feature: Avg Packet Size, Importance: 0.0006606780643292343
+Feature: Packet Length Min, Importance: 0.0006027238481599584
+Feature: CWE Flag Count, Importance: 0.000591133004926192
+Feature: Init Fwd Win Bytes, Importance: 0.0005215879455230388
+Feature: Flow IAT Min, Importance: 0.000498406259055395
+Feature: Packet Length Mean, Importance: 0.0004752245725876403
+Feature: Down/Up Ratio, Importance: 0.00037090698348307694
+Feature: Fwd Packet Length Max, Importance: 0.00035931614024919956
+Feature: Active Std, Importance: 0.00035931614024919956
+Feature: SYN Flag Count, Importance: 0.0003361344537815558
+Feature: Fwd Packet Length Min, Importance: 0.00031295276731380106
+Feature: Bwd Header Length, Importance: 0.00031295276731380106
+Feature: Idle Mean, Importance: 0.0002665893943785136
+Feature: Avg Fwd Segment Size, Importance: 0.0002549985511446362
+Feature: Flow Duration, Importance: 0.00024340770791075883
+Feature: Protocol, Importance: 0.0002202260214431151
+Feature: Idle Min, Importance: 0.00020863517820923771
+Feature: Fwd Packet Length Mean, Importance: 0.00019704433497536034
+Feature: Flow IAT Std, Importance: 0.00019704433497536034
+Feature: Fwd IAT Std, Importance: 0.00019704433497536034
+Feature: Fwd IAT Max, Importance: 0.00016227180527383922
+Feature: Flow IAT Max, Importance: 0.00015068096204007286
+Feature: Bwd IAT Min, Importance: 0.00013909011880619548
+Feature: Fwd IAT Total, Importance: 0.0001274992755723181
+Feature: Packet Length Variance, Importance: 0.0001274992755723181
+Feature: RST Flag Count, Importance: 0.0001274992755723181
+Feature: Flow Bytes/s, Importance: 0.00011590843233844073
+Feature: Fwd IAT Mean, Importance: 0.00011590843233844073
+Feature: Bwd IAT Total, Importance: 9.272674587079699e-05
+Feature: Flow IAT Mean, Importance: 8.113590263691961e-05
+Feature: Fwd PSH Flags, Importance: 8.113590263691961e-05
+Feature: Active Mean, Importance: 8.113590263691961e-05
+Feature: Idle Std, Importance: 8.113590263691961e-05
+Feature: Fwd IAT Min, Importance: 6.954505940315325e-05
+Feature: Idle Max, Importance: 6.954505940315325e-05
+Feature: Bwd IAT Mean, Importance: 5.7954216169275874e-05
+Feature: Total Backward Packets, Importance: 3.4772529701521115e-05
+Feature: Bwd IAT Max, Importance: 3.4772529701521115e-05
+Feature: Packet Length Max, Importance: 3.4772529701521115e-05
+Feature: Subflow Fwd Bytes, Importance: 3.4772529701521115e-05
+Feature: Fwd Act Data Packets, Importance: 3.4772529701521115e-05
+Feature: Fwd Header Length, Importance: 2.318168646775476e-05
+Feature: Subflow Bwd Packets, Importance: 2.318168646775476e-05
+Feature: Total Fwd Packets, Importance: 1.159084323387738e-05
+Feature: Bwd Packets Length Total, Importance: 1.159084323387738e-05
+Feature: Bwd IAT Std, Importance: 1.159084323387738e-05
+Feature: Bwd Packets/s, Importance: 1.159084323387738e-05
+Feature: Subflow Fwd Packets, Importance: 1.159084323387738e-05
+Feature: Subflow Bwd Bytes, Importance: 1.159084323387738e-05
+Feature: Fwd Packets Length Total, Importance: 0.0
+Feature: Bwd PSH Flags, Importance: 0.0
+Feature: Fwd URG Flags, Importance: 0.0
+Feature: Bwd URG Flags, Importance: 0.0
+Feature: FIN Flag Count, Importance: 0.0
+Feature: PSH Flag Count, Importance: 0.0
+Feature: ECE Flag Count, Importance: 0.0
+Feature: Fwd Avg Bytes/Bulk, Importance: 0.0
+Feature: Fwd Avg Packets/Bulk, Importance: 0.0
+Feature: Fwd Avg Bulk Rate, Importance: 0.0
+Feature: Bwd Avg Bytes/Bulk, Importance: 0.0
+Feature: Bwd Avg Packets/Bulk, Importance: 0.0
+Feature: Bwd Avg Bulk Rate, Importance: 0.0
+Feature: Fwd Seg Size Min, Importance: 0.0
+Feature: Active Max, Importance: -2.3181686467643736e-05
