@@ -2,15 +2,11 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 # Load the data
-df = pd.read_csv('packets.csv', encoding='latin1', on_bad_lines='warn', usecols=range(87), dtype={17: str})
-
-print(df.iloc[:, 17].unique())
+df = pd.read_csv('ddos_data.csv', encoding='latin1', on_bad_lines='warn')
 
 # Basic preprocessing
 # Select numerical features or features you deem relevant
 # For the sake of the example, let's assume you've identified some features
-#selected_features = ['feature1', 'feature2', 'feature3']  # replace with your actual feature names
-#df = df[selected_features]
 
 # Fill missing values if any
 df.fillna(0, inplace=True)
