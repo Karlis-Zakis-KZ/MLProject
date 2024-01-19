@@ -10,7 +10,7 @@ network = "192.168.1.0/24"
 
 try:
     # Define a list of source IP addresses
-    src_ips = ["192.168.1.100", "192.168.1.101", "192.168.1.102"]
+    src_ips = ["192.168.1.102"]
 
     # Define a list of payload lengths
     payload_lengths = [64, 128, 256, 512, 1024]
@@ -21,7 +21,7 @@ try:
             payload = "X" * payload_length
 
             # Send an ICMP request to each host in the network
-            ans, unans = sr(IP(dst=network, src=src_ip)/ICMP()/payload, timeout=2)
+            ans, unans = sr(IP(dst=network, src=src_ip)/ICMP()/payload, timeout=0.5)
 
             # Print out the IP addresses of the hosts that responded
             for sent, received in ans:

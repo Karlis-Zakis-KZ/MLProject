@@ -4,6 +4,14 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
+def normalize_time(t):
+    try:
+        # Convert the time to the standard datetime format
+        return pd.to_datetime(t).time()
+    except ValueError:
+        # If the time cannot be converted, return a default value
+        return pd.to_datetime('00:00:00').time()
+
 # Load the dataset
 df = pd.read_csv('ddos_data.csv')
 
@@ -11,7 +19,9 @@ df = pd.read_csv('ddos_data.csv')
 df = df.fillna(0)
 
 # Convert non-numeric data to numeric
-df['timestamp'] = pd.to_datetime(df['timestamp']).astype('int64') / 10**9
+df['timestamp'] = df['timestamp'].apply(normalize_time)
+
+df['timestamp'] = df['timestamp'].apply(lambda t: pd.Timestamp.combine(pd.to_datetime('1970-01-01'), t)).astype('int64') / 10**9
 df['src_mac'] = df['src_mac'].apply(lambda x: int(x.replace(':', ''), 16))
 df['dst_mac'] = df['dst_mac'].apply(lambda x: int(x.replace(':', ''), 16))
 df['src_ip'] = df['src_ip'].apply(lambda x: int(''.join([f'{int(i):08b}' for i in x.split('.')]), 2) if isinstance(x, str) else x)
@@ -43,11 +53,11 @@ reduced_centers = pca.transform(kmeans.cluster_centers_)
 plt.scatter(reduced_data[:, 0], reduced_data[:, 1], c=predictions, alpha=0.5)
 
 # Plot the reduced cluster centers
-plt.scatter(reduced_centers[:, 0], reduced_centers[:, 1], marker='x', s=150, c='red')
+for i, center in enumerate(reduced_centers):
+    plt.scatter(center[0], center[1], marker='${}$'.format(i), s=150, c='red')
 
 # Show the plot
 plt.show()
-
 # Print the cluster centroids
 print(kmeans.cluster_centers_)
 
